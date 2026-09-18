@@ -1,0 +1,14 @@
+interface:
+  display_name: Astra식 게임 제작
+  short_description: 플레이 경험과 컨셉부터 디버그 API·자동 플레이·성능 검증까지 게임을 제작
+  default_prompt: Use $build-game-loop to build a playable game with a visual reference,
+    debug API, reproducible test scenes, and measured iteration.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
